@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'My First Angular App!';
+  title = 'My First Angular Custom Directive!';
+  public location;
+  bindAddress(place: Object) {
+    this.location = place['formatted_address'];
+  }
 }
