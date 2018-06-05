@@ -1,1 +1,1 @@
-# -angular5-googlemap-autocomplete
+# angular5-googlemap-autocomplete
